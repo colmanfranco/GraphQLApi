@@ -16,7 +16,7 @@ module.exports = {
         }
     },
 
-    createdArticle: async args => {
+    createArticle: async args => {
         try {
             const { title, body } = args.article;
             const article = new Article({
